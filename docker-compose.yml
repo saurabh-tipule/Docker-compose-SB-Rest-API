@@ -24,3 +24,6 @@ services:
       - mysql_data:/var/lib/mysql
 networks:
   springboot-db-net:
+
+volumes:
+  mysql_data:
